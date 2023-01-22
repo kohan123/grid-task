@@ -1,0 +1,50 @@
+main {
+    display: grid;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: darkgray;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.img {
+    width: 75%;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.flex_container {
+    display: flex;
+}
+.daniale {
+    background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: aliceblue;
+
+}
+.jonathen {
+    background-color: cadetblue;
+    color: aliceblue ;
+}
+.kira {
+    background-color:darkslategray;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    color: antiquewhite;
+}
+.elizabeth {
+   background-color: antiquewhite;
+}
+.alexandra {
+    background-color: aliceblue;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.border{
+    border-radius: 15px;
+}
