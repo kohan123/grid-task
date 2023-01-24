@@ -1,7 +1,6 @@
 main {
     display: grid;
     width: 90%;
-    height: 600px;
     margin: 0 auto;
     grid-template-columns: repeat(5, 1fr);
     background-color: darkgray;
@@ -10,7 +9,7 @@ main {
     border-radius: 10px;
 }
 .img {
-    width: 75%;
+    width: 45px;
     height: 40px;
     border-radius: 50%;
     margin: 5px;
@@ -23,20 +22,24 @@ main {
     grid-column-start: 1;
     grid-column-end: 4;
     color: aliceblue;
+    padding: 15px;
 
 }
 .jonathen {
     background-color: cadetblue;
     color: aliceblue ;
+    padding: 15px;
 }
 .kira {
     background-color:darkslategray;
     grid-column-start: 2;
     grid-column-end: 5;
     color: antiquewhite;
+    padding: 15px;
 }
 .elizabeth {
    background-color: antiquewhite;
+   padding: 15px;
 }
 .alexandra {
     background-color: aliceblue;
@@ -44,7 +47,26 @@ main {
     grid-row-end: 3;
     grid-column-start: 5;
     grid-column-end: 6;
+    padding: 15px;
 }
 .border{
     border-radius: 15px;
+}
+.bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+.small {
+    font-size: 14px;
+}
+.post {
+    font-size: 9px;
+    margin: 0px;
+}
+.name {
+    margin: 0px;
+    font-size: 14px;
+}
+.person {
+    margin-top: 10px;
 }
